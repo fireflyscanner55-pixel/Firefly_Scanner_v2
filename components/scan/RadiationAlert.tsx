@@ -70,14 +70,14 @@ export default function RadiationAlert({
 
           <h2 className="text-2xl font-bold uppercase tracking-wider text-white sm:text-3xl">
             {positive
-              ? "Found the radiation"
-              : "No Radiation Found"}
+              ? "Primary Radiation Found"
+              : "No Radiation Detected"}
           </h2>
 
           <p className="text-sm text-white/60">
             {positive
               ? "Radiation signature detected."
-              : "No significant radiation signature detected."}
+              : "No radiaiation detected above background level during this survey."}
           </p>
         </div>
       </div>
